@@ -1,0 +1,10 @@
+framework module FrameworkTwo {
+  umbrella header "FrameworkTwo.h"
+
+  export *
+  module * { export * }
+}
+
+module FrameworkTwo.__Swift {
+    exclude header "FrameworkTwo-Swift.h"
+}

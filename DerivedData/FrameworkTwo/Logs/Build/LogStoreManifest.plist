@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>57C9B7AA-1CBE-419F-83E7-F797F4CCA8FA</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>57C9B7AA-1CBE-419F-83E7-F797F4CCA8FA.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>FrameworkTwo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>FrameworkTwo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build FrameworkTwo</string>
+			<key>timeStartedRecording</key>
+			<real>608555049.04913795</real>
+			<key>timeStoppedRecording</key>
+			<real>608555049.50147104</real>
+			<key>title</key>
+			<string>Build FrameworkTwo</string>
+			<key>uniqueIdentifier</key>
+			<string>57C9B7AA-1CBE-419F-83E7-F797F4CCA8FA</string>
+		</dict>
+		<key>7FE62234-5E41-4CFA-8815-07D8402D959A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>7FE62234-5E41-4CFA-8815-07D8402D959A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>FrameworkTwo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>FrameworkTwo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build FrameworkTwo</string>
+			<key>timeStartedRecording</key>
+			<real>608554864.82205606</real>
+			<key>timeStoppedRecording</key>
+			<real>608554865.08355105</real>
+			<key>title</key>
+			<string>Build FrameworkTwo</string>
+			<key>uniqueIdentifier</key>
+			<string>7FE62234-5E41-4CFA-8815-07D8402D959A</string>
+		</dict>
+		<key>80A37D88-0B6A-4BE2-8EE2-5D31B64D3BD4</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>80A37D88-0B6A-4BE2-8EE2-5D31B64D3BD4.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>FrameworkTwo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>FrameworkTwo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build FrameworkTwo</string>
+			<key>timeStartedRecording</key>
+			<real>608554284.38876402</real>
+			<key>timeStoppedRecording</key>
+			<real>608554284.59508801</real>
+			<key>title</key>
+			<string>Build FrameworkTwo</string>
+			<key>uniqueIdentifier</key>
+			<string>80A37D88-0B6A-4BE2-8EE2-5D31B64D3BD4</string>
+		</dict>
+		<key>987812C8-FA6B-4FF2-ABA7-412F3B063009</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>987812C8-FA6B-4FF2-ABA7-412F3B063009.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>FrameworkTwo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>FrameworkTwo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build FrameworkTwo</string>
+			<key>timeStartedRecording</key>
+			<real>608554980.03890097</real>
+			<key>timeStoppedRecording</key>
+			<real>608554980.63423204</real>
+			<key>title</key>
+			<string>Build FrameworkTwo</string>
+			<key>uniqueIdentifier</key>
+			<string>987812C8-FA6B-4FF2-ABA7-412F3B063009</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

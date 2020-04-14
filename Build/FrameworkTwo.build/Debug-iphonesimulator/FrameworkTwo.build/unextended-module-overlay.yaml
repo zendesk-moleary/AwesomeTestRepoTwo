@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/moleary/Desktop/Projects/FrameworkTwo/Build/Debug-iphonesimulator/FrameworkTwo.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/moleary/Desktop/Projects/FrameworkTwo/Build/FrameworkTwo.build/Debug-iphonesimulator/FrameworkTwo.build/unextended-module.modulemap",
+    }]
+  }]
+}
