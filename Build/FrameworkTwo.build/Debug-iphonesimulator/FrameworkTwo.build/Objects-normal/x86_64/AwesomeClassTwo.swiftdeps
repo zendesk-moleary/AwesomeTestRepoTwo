@@ -7,14 +7,20 @@ provides-member:
 - ["12FrameworkTwo012AwesomeClassB0C", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- "AwesomeClassOne"
 - "AwesomeClassTwo"
 - !private "StringLiteralType"
 - !private "print"
 depends-member:
+- !private ["12FrameworkOne012AwesomeClassB0C", "greeting"]
+- ["12FrameworkOne012AwesomeClassB0C", "init"]
+- ["12FrameworkTwo012AwesomeClassB0C", "AwesomeClassOne"]
 - ["12FrameworkTwo012AwesomeClassB0C", "hello"]
 - ["12FrameworkTwo012AwesomeClassB0C", "init"]
+- ["12FrameworkTwo012AwesomeClassB0C", "myClass"]
 - !private ["12FrameworkTwo012AwesomeClassB0C", "print"]
 depends-nominal:
+- "12FrameworkOne012AwesomeClassB0C"
 - "12FrameworkTwo012AwesomeClassB0C"
 depends-dynamic-lookup:
 depends-external:
@@ -35,13 +41,17 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Users/moleary/Desktop/Projects/FrameworkTwo/Carthage/Build/iOS/FrameworkOne.framework/Modules/FrameworkOne.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/moleary/Desktop/Projects/FrameworkTwo/Carthage/Build/iOS/FrameworkOne.framework/Headers/FrameworkOne.h"
 - "/Users/moleary/Desktop/Projects/FrameworkTwo/FrameworkTwo/FrameworkTwo.h"
+- "/Users/moleary/Desktop/Projects/FrameworkTwo/Carthage/Build/iOS/FrameworkOne.framework/Headers/FrameworkOne-Swift.h"
 - "/Users/moleary/Desktop/Projects/FrameworkTwo/Build/FrameworkTwo.build/Debug-iphonesimulator/FrameworkTwo.build/unextended-module.modulemap"
+- "/Users/moleary/Desktop/Projects/FrameworkTwo/Carthage/Build/iOS/FrameworkOne.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "bf38ac59f5ec2628b484ca36388cd6ef"
+interface-hash: "9ee0cf5214e3dacf06f2a71349f775f6"

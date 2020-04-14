@@ -3,19 +3,36 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		C7F9DBDC2445CC5700448470 /* FrameworkTwo.h in Headers */ = {isa = PBXBuildFile; fileRef = C7F9DBDA2445CC5700448470 /* FrameworkTwo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C7F9DBE32445CC7500448470 /* AwesomeClassTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F9DBE22445CC7500448470 /* AwesomeClassTwo.swift */; };
+		C7F9DC2E2445DD6C00448470 /* FrameworkOne.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7F9DC2D2445DD6C00448470 /* FrameworkOne.framework */; platformFilter = ios; };
+		C7F9DC2F2445DD6C00448470 /* FrameworkOne.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C7F9DC2D2445DD6C00448470 /* FrameworkOne.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C7F9DC302445DD6C00448470 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C7F9DC2F2445DD6C00448470 /* FrameworkOne.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		C7F9DBD72445CC5700448470 /* FrameworkTwo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FrameworkTwo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7F9DBDA2445CC5700448470 /* FrameworkTwo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FrameworkTwo.h; sourceTree = "<group>"; };
 		C7F9DBDB2445CC5700448470 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7F9DBE22445CC7500448470 /* AwesomeClassTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwesomeClassTwo.swift; sourceTree = "<group>"; };
+		C7F9DC2D2445DD6C00448470 /* FrameworkOne.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FrameworkOne.framework; path = Carthage/Build/iOS/FrameworkOne.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -23,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7F9DC2E2445DD6C00448470 /* FrameworkOne.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -34,6 +52,7 @@
 			children = (
 				C7F9DBD92445CC5700448470 /* FrameworkTwo */,
 				C7F9DBD82445CC5700448470 /* Products */,
+				C7F9DC2C2445DD6B00448470 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,6 +72,14 @@
 				C7F9DBE22445CC7500448470 /* AwesomeClassTwo.swift */,
 			);
 			path = FrameworkTwo;
+			sourceTree = "<group>";
+		};
+		C7F9DC2C2445DD6B00448470 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7F9DC2D2445DD6C00448470 /* FrameworkOne.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +104,7 @@
 				C7F9DBD32445CC5700448470 /* Sources */,
 				C7F9DBD42445CC5700448470 /* Frameworks */,
 				C7F9DBD52445CC5700448470 /* Resources */,
+				C7F9DC302445DD6C00448470 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -271,6 +299,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = FrameworkTwo/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -296,6 +328,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = FrameworkTwo/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (

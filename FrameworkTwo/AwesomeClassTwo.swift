@@ -7,16 +7,17 @@
 //
 
 import Foundation
+import FrameworkOne
 
 public class AwesomeClassTwo {
-    //let myClass = AwesomeClassOne()
+    let myClass = AwesomeClassOne()
 
     public init() {}
 
     public func hello() {
         print("Hello from FrameworkTwo!")
-        //print("Calling greeting() method from FrameworkOne: ")
-        //myClass.greeting()
+        print("Calling greeting() method from FrameworkOne: ")
+        myClass.greeting()
     }
 
 }

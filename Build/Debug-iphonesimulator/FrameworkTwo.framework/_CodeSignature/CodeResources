@@ -8,6 +8,18 @@
 		<data>
 		D13jkW7p1TJeIRPVLe8TtGd9U7w=
 		</data>
+		<key>Frameworks/FrameworkOne.framework/FrameworkOne</key>
+		<data>
+		RrKd/eYAMOF59GOvTPHaKRarN48=
+		</data>
+		<key>Frameworks/FrameworkOne.framework/Info.plist</key>
+		<data>
+		P67YpMsnzYAoELdSmqjDsyMb7Qc=
+		</data>
+		<key>Frameworks/FrameworkOne.framework/_CodeSignature/CodeResources</key>
+		<data>
+		s3qE48l/4eAIyFS/KM6gImKPA1M=
+		</data>
 		<key>Headers/FrameworkTwo-Swift.h</key>
 		<data>
 		srUNVjaxo5g2bXkGfCJLZHfGoyE=
@@ -26,7 +38,7 @@
 		</data>
 		<key>Modules/FrameworkTwo.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		48raP06Eel2cP0pAIyDzp87lB5Y=
+		XWH2MVr//21qcn6pWyU2K+HvEU4=
 		</data>
 		<key>Modules/FrameworkTwo.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -34,7 +46,7 @@
 		</data>
 		<key>Modules/FrameworkTwo.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		48raP06Eel2cP0pAIyDzp87lB5Y=
+		XWH2MVr//21qcn6pWyU2K+HvEU4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -43,6 +55,27 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Frameworks/FrameworkOne.framework/FrameworkOne</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			v1rqk5OQQyUiNfwS0hBiqF6ZFoZvGenR6b3g4W8GeI4=
+			</data>
+		</dict>
+		<key>Frameworks/FrameworkOne.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			GTR8dlNfXCuDUBnoQ6uqFWmzT65QpvNULer9rQ3t9To=
+			</data>
+		</dict>
+		<key>Frameworks/FrameworkOne.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			U3dy9h3ObObw1GYfJleU4sUdlO4uX30X159lRDfCtOM=
+			</data>
+		</dict>
 		<key>Headers/FrameworkTwo-Swift.h</key>
 		<dict>
 			<key>hash2</key>
@@ -68,7 +101,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			e8FZjszIY+nfap8igTBlTl+yDyW5udafBnZNlXma46I=
+			ztszb4e019UulWvcd3nWl7s5HSB/URhDNfQYbKl88iY=
 			</data>
 		</dict>
 		<key>Modules/FrameworkTwo.swiftmodule/x86_64.swiftdoc</key>
@@ -82,7 +115,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			e8FZjszIY+nfap8igTBlTl+yDyW5udafBnZNlXma46I=
+			ztszb4e019UulWvcd3nWl7s5HSB/URhDNfQYbKl88iY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
